@@ -66,6 +66,15 @@ a {
   float: left;
 }
 
+a:hover {
+  background-color: #EE5F3C;
+}
+
+img {
+  height: 200px;
+  width: 150px;
+}
+
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -73,8 +82,4 @@ a {
   clear: both;
   height: 0;
   font-size: 0;
-}
-
-a:hover {
-  background-color: #EE5F3C;
 }
